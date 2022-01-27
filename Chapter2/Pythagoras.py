@@ -63,4 +63,5 @@ def use_pythagoras():
         else:
             do = False
 
-use_pythagoras()
+# To try the function yourself, uncomment the following line:
+# use_pythagoras()

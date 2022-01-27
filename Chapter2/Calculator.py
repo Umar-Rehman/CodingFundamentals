@@ -87,5 +87,5 @@ def calculate():
         else:
             do = False
 
-
-calculate()
+# To try the function yourself, uncomment the following line:
+# calculate()

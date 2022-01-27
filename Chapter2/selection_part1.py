@@ -16,4 +16,5 @@ def check_age(age):
         print("You are in category C\n")
         return("C")
 
-check_age(input("Enter age: "))
+# To try the function yourself, uncomment the following line:
+# check_age(input("Enter age: "))
