@@ -1,6 +1,5 @@
 import math
 
-
 class Pythagoras:
     def __init__(self, num1, num2):
         self.first = num1

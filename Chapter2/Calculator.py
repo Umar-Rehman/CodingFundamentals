@@ -87,5 +87,5 @@ def calculate():
         else:
             do = False
 
-    
+
 calculate()
