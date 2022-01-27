@@ -4,8 +4,6 @@ def greet():
     print(message, "\n")
     return message
 
-greet()
-
 # Part 2 - Display a message using variables
 def stock_message():
     name = "Umar"
@@ -14,12 +12,8 @@ def stock_message():
     print(message, "\n")
     return message
 
-stock_message()
-
 # Part 2.5 – Get user input
-def custom_message():
-    name = input("Enter name: ")
-    age = input("Enter age: ")
+def custom_message(name, age):
     while type(age) != int:
         try:
             age = int(age)
@@ -28,19 +22,14 @@ def custom_message():
             return message
         except:
             age = input("Please enter your age as an integer value: ")
-    
-
-custom_message()
 
 # Part 3
-def calculate_area_perim():
-    length = input("Enter length: ")
+def calculate_area_perim(length, width):
     while type(length) != int:
         try:
             length = int(length)
         except:
             length = input("Please enter an integer length: ")
-    width = input("Enter width: ")
     while type(width) != int:
         try:
             width = int(width)
@@ -51,4 +40,8 @@ def calculate_area_perim():
     print(f"Area: {area}\nPerimeter: {perim}")
     return area, perim
 
-calculate_area_perim()
+# To try the functions yourself, uncomment the following lines:
+# greet()
+# stock_message()
+# custom_message(input("Enter name: "), input("Enter age: "))
+# calculate_area_perim(input("Enter length: "), input("Enter width: "))
