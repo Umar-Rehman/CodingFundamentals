@@ -178,5 +178,5 @@ def calculate_time():
         else:
             do = False
 
-
-calculate_time()
+# To try the function yourself, uncomment the following lines:
+# calculate_time()

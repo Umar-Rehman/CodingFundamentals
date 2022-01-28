@@ -3,7 +3,9 @@
 def getIncomeTax(salary):
     taxDict = {0: 0.2, 34501: 0.4, 150000: 0.45}
     for i in range(0,3):
-        if int(salary) > list(taxDict)[i] and (i == 2 or int(salary) < list(taxDict)[i+1]):
+        if int(salary) == 0:
+            tax_rate = 0.0
+        elif int(salary) > list(taxDict)[i] and (i == 2 or int(salary) < list(taxDict)[i+1]):
             tax_rate = list(taxDict.values())[i]
         else:
             continue
