@@ -25,5 +25,7 @@ def find_average(num=3):
         result = "Fail"
     
     print(f"Average: {average}\nResult: {result}")
+    return average, result
 
-find_average()
+# To try the function yourself, uncomment the following lines:
+# find_average()

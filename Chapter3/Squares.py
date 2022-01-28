@@ -7,6 +7,7 @@ def while_square():
             print(f"{x}: {x**2}")
             x+=1
         else:
-            break
+            return(x)
 
-while_square()
+# To try the function yourself, uncomment the following lines:
+# while_square()

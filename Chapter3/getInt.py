@@ -12,9 +12,11 @@ def getInt(min=1, max=100):
         if user_value < min or user_value > max:
             if attempts == 3:
                 print(None)
+                return None
             attempts+=1
         else:
             print(f"You entered {user_value}!")
-            break
+            return "Correct"
 
-getInt()
+# To try the function yourself, uncomment the following lines:
+# getInt()

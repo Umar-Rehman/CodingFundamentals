@@ -1,7 +1,6 @@
 # Part 2 - Factorial 
 
-def factorial():
-    num1 = input("Enter an integer: ")
+def factorial(num1):
     while type(num1) != int:
         try:
             num1 = int(num1)
@@ -12,6 +11,7 @@ def factorial():
         out = out*(num1)
         num1-=1
     print(out)
+    return out
     
-
-factorial()
+# To try the function yourself, uncomment the following lines:
+# factorial(input("Enter an integer: "))

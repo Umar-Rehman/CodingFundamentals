@@ -42,5 +42,6 @@ def investment():
         years += 1
 
     print(f"It will take {years} to reach £{out.__round__(2)}.")
+    return years
 
 investment()

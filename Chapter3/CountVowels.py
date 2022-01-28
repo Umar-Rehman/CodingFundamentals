@@ -1,12 +1,13 @@
 # Part 5 - Count vowels 
 
-def count_vowels():
+def count_vowels(word):
     vowels = ("a", "e", "i", "o", "u")
-    word = input("Enter a word: ").lower()
     count=0
-    for i in word:
+    for i in word.lower():
         if i in vowels:
             count+=1
     print(f"I count {count} vowel(s).")
+    return count
 
-count_vowels()
+# To try the function yourself, uncomment the following lines:
+# count_vowels(input("Enter a word: ").lower())
