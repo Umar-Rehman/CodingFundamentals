@@ -118,7 +118,7 @@ def get_times(quantity=1):
                 good_input = True
     
             except:
-                input("Enter a time (in format DD:HH:MM): ")
+                times = input("Enter a time (in format DD:HH:MM): ")
     
         
     return(time_list)
@@ -179,4 +179,4 @@ def calculate_time():
             do = False
 
 # To try the function yourself, uncomment the following lines:
-# calculate_time()
+calculate_time()
