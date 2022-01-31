@@ -14,5 +14,15 @@ MORSE_CODE_DICT = { 'A':'.-', 'B':'-...',
                     '?':'..--..', '/':'-..-.', '-':'-....-',
                     '(':'-.--.', ')':'-.--.-'}
 
-string = "SOS"
-string_list = list(string)
+def to_morse(string):
+    morse_string = ""
+    for i in string:
+        if i == " ":
+            morse_string+=" "
+        else:
+            morse_string+=MORSE_CODE_DICT[i] + " "
+    
+    print(morse_string)
+    return morse_string
+
+to_morse(input("Enter a string to convert to morse code: ").upper())
