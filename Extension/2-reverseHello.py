@@ -1,4 +1,4 @@
-# 2. Saying Hello, in Reverse
+# Saying Hello, in Reverse
 
 def say_hello_reversed():
     names = [ "Helen", "Bob", "Sarah" ]

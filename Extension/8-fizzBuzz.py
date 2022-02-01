@@ -1,3 +1,5 @@
+# Fizz Buzz
+
 def fizzBuzz(num):
     while type(num) != int:
         try:

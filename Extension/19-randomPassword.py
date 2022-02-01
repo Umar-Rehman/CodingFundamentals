@@ -1,11 +1,12 @@
+# Random password generator
+
 import string
 import random
 
 def generate_password():
     secure = False
-
+    all = string.ascii_letters + string.digits + string.punctuation
     while secure == False:
-        all = string.ascii_letters + string.digits + string.punctuation
         password = "".join(random.sample(all,10))
 
         if ((any(char.isupper() for char in password) and any(char.islower() for char in password) 
@@ -16,3 +17,5 @@ def generate_password():
 
     print(password)
     return(password)
+
+generate_password()

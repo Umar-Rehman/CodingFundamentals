@@ -1,4 +1,5 @@
 # Fibonacci generator
+
 def fibonacci():
 
     li = [0, 1, 1]

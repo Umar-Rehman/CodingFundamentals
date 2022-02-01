@@ -1,4 +1,4 @@
-# 3. Multiplication table 
+# Multiplication table 
 
 def table(num):
     while type(num) != int:

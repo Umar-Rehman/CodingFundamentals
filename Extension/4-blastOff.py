@@ -1,4 +1,4 @@
-# 4. Blast off 
+# Blast off 
 
 import time
 

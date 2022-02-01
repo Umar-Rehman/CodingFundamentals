@@ -1,4 +1,4 @@
-# 1. Saying Hello 
+# Saying Hello 
 
 def say_hello():
     names = [ "Helen", "Bob", "Sarah" ] 
