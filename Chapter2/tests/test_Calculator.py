@@ -1,7 +1,4 @@
-import os, sys
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-import Calculator
+from src import Calculator
 
 def test_add():
     newCalc = Calculator.Calculator(5, 9)

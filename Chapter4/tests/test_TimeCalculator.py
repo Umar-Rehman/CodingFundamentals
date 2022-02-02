@@ -1,7 +1,4 @@
-import os, sys
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-import TimeCalculator, base
+from src import TimeCalculator, base
 
 def test_sort_time():
     times="01:25:65"

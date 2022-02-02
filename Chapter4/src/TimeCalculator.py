@@ -179,4 +179,4 @@ def calculate_time():
             do = False
 
 # To try the function yourself, uncomment the following lines:
-calculate_time()
+# calculate_time()

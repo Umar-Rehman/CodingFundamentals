@@ -1,7 +1,4 @@
-import os, sys
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-import Lab1
+from src import Lab1
 
 def test_greet():
     assert Lab1.greet() == "Hello, World!"
