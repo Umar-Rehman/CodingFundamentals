@@ -1,4 +1,4 @@
-import random, getpass
+import getpass
 HANGMAN_PICS = ['''
    +---+
        |
