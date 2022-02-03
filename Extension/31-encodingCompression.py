@@ -7,7 +7,7 @@ def encode_string(string):
     for i in range(1,len(string)):
         if string[i] == char:
             count = count + 1
-        else :
+        else:
             string_list.append([char,count])
             char = string[i]
             count = 1

@@ -13,4 +13,4 @@ def christmas_tree(size):
             print("", end=" ")
         print(" * ")
 
-christmas_tree(7)
+christmas_tree(3)

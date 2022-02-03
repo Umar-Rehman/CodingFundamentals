@@ -2,12 +2,10 @@
 
 import random
 
-
 def guess_number():
     count = 0
     lives = 5
     goal = random.randint(1,100)
-    print(goal)
     while count < 5:
         guess = input("Enter your guess: ")
         while type(guess) != int:
